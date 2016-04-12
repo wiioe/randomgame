@@ -11,6 +11,9 @@ import android.os.Bundle;
 
 
 public class SplashActivity extends ActionBarActivity {
+0
+    ..........0...........................
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +27,7 @@ public class SplashActivity extends ActionBarActivity {
             public void run() {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
+                overridePendingTransition(0,R.anim.zoom_exit);
                 finish();
             }
         }, 3000);
