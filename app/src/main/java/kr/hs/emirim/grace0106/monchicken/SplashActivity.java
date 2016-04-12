@@ -11,8 +11,7 @@ import android.os.Bundle;
 
 
 public class SplashActivity extends ActionBarActivity {
-0
-    ..........0...........................
+
 
 
     @Override
